@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copy the requirements file and application code
 COPY requirements.txt /app/
-COPY test_project /app/
+COPY test_project /app/test_project
 
 # Set environment variables
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
