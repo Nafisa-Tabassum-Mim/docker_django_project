@@ -18,4 +18,4 @@ RUN apt-get update && \
 
 # Set the entry point and default command
 ENTRYPOINT ["python3"]
-CMD ["manage.py", "runserver", "0.0.0.0:7000"]
+CMD ["test_project/manage.py", "runserver", "0.0.0.0:7000"]
